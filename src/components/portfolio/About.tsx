@@ -64,7 +64,7 @@ export function Expertise() {
             <Reveal
               key={group.title}
               delay={i * 60}
-              className={i === SKILL_GROUPS.length - 1 ? "md:col-span-2" : undefined}
+              className={i === SKILL_GROUPS.length - 1 ? "md:col-span-2" : ""}
             >
               <div className="h-full rounded-xl border border-border bg-card p-6 transition-colors hover:border-primary/40">
                 <div className="flex items-baseline gap-3">
