@@ -43,6 +43,20 @@ export function ContactSection() {
                 </span>
               </a>
               <a
+                href={CONTACT.github}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="flex items-center gap-4 rounded-xl border border-border bg-card p-5 transition-colors hover:border-primary/50"
+              >
+                <Github className="h-4 w-4 shrink-0 text-primary" />
+                <span className="min-w-0">
+                  <span className="block font-mono text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
+                    GitHub
+                  </span>
+                  <span className="block truncate text-sm">mutahir-shah</span>
+                </span>
+              </a>
+              <a
                 href={CONTACT.linkedin}
                 target="_blank"
                 rel="noreferrer noopener"
@@ -154,6 +168,14 @@ export function Footer() {
                 {l.label}
               </a>
             ))}
+            <a
+              href={CONTACT.github}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+            >
+              GitHub
+            </a>
             <a
               href={CONTACT.linkedin}
               target="_blank"

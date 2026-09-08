@@ -99,6 +99,15 @@ export function Navbar() {
               ))}
             </ul>
             <a
+              href={CONTACT.github}
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="GitHub profile"
+              className="grid h-9 w-9 place-items-center rounded-md border border-border bg-surface text-muted-foreground transition-colors hover:border-primary/50 hover:text-foreground"
+            >
+              <Github className="h-4 w-4" />
+            </a>
+            <a
               href={CONTACT.linkedin}
               target="_blank"
               rel="noreferrer noopener"
