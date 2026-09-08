@@ -3,6 +3,7 @@ export const CONTACT = {
   title: "Senior Full-Stack Web Developer & Technical Lead",
   email: "mutahiricup@gmail.com",
   linkedin: "https://www.linkedin.com/in/mutahir-shah-a225a762/",
+  github: "https://github.com/mutahir-shah",
   publicProject: "https://kp.gov.pk/",
 };
 
