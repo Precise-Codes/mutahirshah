@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Linkedin, Menu, Moon, Sun, X } from "lucide-react";
+import { Github, Linkedin, Menu, Moon, Sun, X } from "lucide-react";
 import { CONTACT, NAV_LINKS } from "@/lib/portfolio-data";
 import { cn } from "@/lib/utils";
 

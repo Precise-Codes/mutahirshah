@@ -32,7 +32,10 @@ export const Route = createFileRoute("/")({
           name: "Mutahir Shah",
           jobTitle: "Senior Full-Stack Web Developer & Technical Lead",
           email: "mailto:mutahiricup@gmail.com",
-          sameAs: ["https://www.linkedin.com/in/mutahir-shah-a225a762/"],
+          sameAs: [
+            "https://www.linkedin.com/in/mutahir-shah-a225a762/",
+            "https://github.com/mutahir-shah",
+          ],
           knowsAbout: [
             "PHP",
             "Laravel",

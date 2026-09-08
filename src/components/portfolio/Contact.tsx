@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import { ExternalLink, Linkedin, Mail, Send } from "lucide-react";
+import { ExternalLink, Github, Linkedin, Mail, Send } from "lucide-react";
 import { CONTACT, NAV_LINKS } from "@/lib/portfolio-data";
 import { Reveal, SectionHeading } from "./primitives";
 
